@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="UTF-8">
-<title>NozStream - Accueil</title>
+<title>NozStream - Lecture</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,134 +14,51 @@
 
 <h1>🎬 NozStream</h1>
 
-<input 
-id="search"
-placeholder="🔎 Rechercher un film..."
->
-
 </header>
 
 
 
-<section class="hero">
+<section class="movie-page">
 
-<h2>Bienvenue sur NozStream</h2>
+
+<h2>Aventure spatiale</h2>
+
+
+<img 
+src="https://picsum.photos/400/550?1"
+class="poster"
+>
+
 
 <p>
-Regarde des films et vidéos légalement.
+Une grande aventure dans l'espace avec des découvertes incroyables.
 </p>
+
+
+<div class="player">
+
+<video controls width="800">
+
+<source 
+src="https://storage.googleapis.com/coverr-main/mp4/Mt2vQb0Z0n8.mp4"
+type="video/mp4">
+
+Ton navigateur ne supporte pas la vidéo.
+
+</video>
+
+</div>
+
+
+<button onclick="window.history.back()">
+⬅ Retour
+</button>
+
 
 </section>
 
 
 
-<h2 class="title">
-🔥 Films populaires
-</h2>
-
-
-
-<div class="movies">
-
-
-<div class="card">
-
-<img src="https://picsum.photos/220/300?1">
-
-<h3>Aventure spatiale</h3>
-
-<button>
-▶ Regarder
-</button>
-
-</div>
-
-
-
-<div class="card">
-
-<img src="https://picsum.photos/220/300?2">
-
-<h3>Monde sauvage</h3>
-
-<button>
-▶ Regarder
-</button>
-
-</div>
-
-
-
-
-<div class="card">
-
-<img src="https://picsum.photos/220/300?3">
-
-<h3>Mission Extrême</h3>
-
-<button>
-▶ Regarder
-</button>
-
-</div>
-
-
-
-
-<div class="card">
-
-<img src="https://picsum.photos/220/300?4">
-
-<h3>Grande aventure</h3>
-
-<button>
-▶ Regarder
-</button>
-
-</div>
-
-
-</div>
-
-
-
-
-<h2 class="title">
-⭐ Nouveautés
-</h2>
-
-
-<div class="movies">
-
-
-<div class="card">
-
-<img src="https://picsum.photos/220/300?5">
-
-<h3>Nouvelle planète</h3>
-
-<button>
-▶ Regarder
-</button>
-
-</div>
-
-
-<div class="card">
-
-<img src="https://picsum.photos/220/300?6">
-
-<h3>Le dernier voyage</h3>
-
-<button>
-▶ Regarder
-</button>
-
-</div>
-
-
-</div>
-
-
 </body>
+
 </html>
