@@ -1,51 +1,97 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #090014;
+    background: #080010;
     color: white;
+    font-family: Arial, sans-serif;
 }
 
+
+/* Barre du haut */
 header {
-    padding: 20px;
-    text-align: center;
-    background: #16002b;
-    box-shadow: 0 0 20px purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #12001f;
+    box-shadow: 0 0 25px #7b00ff;
 }
+
 
 h1 {
-    color: #b84dff;
+    color: #a000ff;
+    font-size: 38px;
+}
+
+
+#search {
+    width: 300px;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+/* Bannière */
+.hero {
+    margin: 40px;
+    padding: 50px;
+    border-radius: 20px;
+    background: linear-gradient(
+        135deg,
+        #25004d,
+        #090014
+    );
+    box-shadow: 0 0 30px purple;
+}
+
+
+.hero h2 {
     font-size: 40px;
 }
 
-.box {
-    width: 350px;
-    margin: 80px auto;
-    padding: 30px;
-    background: #140022;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 0 25px #8a00ff;
+
+/* Films */
+.title {
+    margin-left: 40px;
 }
 
-input {
-    width: 90%;
-    padding: 12px;
-    margin: 10px;
-    border-radius: 8px;
-    border: none;
+
+.movies {
+    display: flex;
+    gap: 25px;
+    padding: 40px;
 }
+
+
+.card {
+    width: 220px;
+    height: 300px;
+    background: #170025;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    box-shadow: 0 0 20px #6500ff;
+    transition: 0.3s;
+}
+
+
+.card:hover {
+    transform: scale(1.08);
+}
+
 
 button {
-    width: 45%;
     padding: 12px;
-    margin: 10px;
     border: none;
-    border-radius: 8px;
-    background: #8a00ff;
+    border-radius: 10px;
+    background: #9000ff;
     color: white;
     cursor: pointer;
 }
 
+
 button:hover {
-    background: #b84dff;
+    background: #c04dff;
 }
